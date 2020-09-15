@@ -1,6 +1,14 @@
 # OrderManagement
 Order Management Service
 
+To access H2 database:
+http://localhost:8080/h2-console
+driver class: org.h2.Driver
+jdbc url: jdbc:h2:mem:omsdb
+user id: omsadmin
+password: omsadmin
+
+
 Base URL: /oms/v1
 Following end points are supported:
 /order (HTTP POST)
